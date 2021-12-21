@@ -7,7 +7,7 @@
     "docs:build": "vuepress build docs"
   },
   "keywords": [],
-  "author": "Wout Peirens, Felix Falk, Aaron Van Vyve, Jens Cocquyt, SImon Mestdagh, Thomas  Luca, Thybris Vandenbroucke",
+  "author": "Wout Peirens, Felix Falk, Aaron Van Vyve, Jens Cocquyt, Simon Mestdagh, Thomas  Luca, Thybris Vandenbroucke",
   "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
   "dependencies": {},
   "devDependencies": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/felixfalk2903/AI-edge-raport"
   },
   "bugs": {
     "url": "/issues"

@@ -17,7 +17,7 @@ module.exports = {
       ['/conclusie/', 'Conclusie'],
       ['/bibliografie/', 'Bibliografie']
     ],
-    repo: 'https://github.com/DeepLearning-2021-2022/deep-learning-project-report-wout297',
+    repo: 'https://github.com/felixfalk2903/AI-edge-raport',
     docsDir: 'docs',
     docsBranch: 'master'
   },

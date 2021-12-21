@@ -1,7 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/99541e3b-efa5-4d72-9f11-6db10dc94c8a/deploy-status)](https://app.netlify.com/sites/deep-learning-wout-felix/deploys)
 # AI-EDGE Report
 
-[Our netlify site]()
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d8268608-bbb3-4c41-948e-e290155a02d1/deploy-status)](https://app.netlify.com/sites/ai-edge-raport/deploys)
+
+[Our netlify site](ai-edge-raport.netlify.app)
 
 ## Running a Development Server
 
