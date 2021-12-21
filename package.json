@@ -1,0 +1,25 @@
+{
+  "name": "ai-edge",
+  "version": "0.0.1",
+  "description": "Report for the ai-edge project",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "Wout Peirens, Felix Falk, Aaron Van Vyve, Jens Cocquyt, SImon Mestdagh, Thomas  Luca, Thybris Vandenbroucke",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-zooming": "^1.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "/issues"
+  },
+  "homepage": "#readme"
+}
