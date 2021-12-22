@@ -21,7 +21,7 @@ Beschrijf de stappen die jullie in de analyse van de probleemstelling hebben ged
 
  -->
 
-Seat detection wordt reeds gebruikt in verschijdenheid aan situaties zoals bijvoorbeeld de Kinepolis en sommige bussen.
+Seat detection wordt reeds gebruikt in verschijdenheid aan situaties zoals bijvoorbeeld de Kinepolis om te checken of iedereen op zijn juiste stoel zit of wel voor zijn stoel heeft betaald.
 
 De manier waarop de detectie gedaan wordt kan verschillen, de meeste gaan voor een simpel druk systeem waarbij de persoon op een soort drukplaat zit waarbij druk de indicatie geeft of er een persoon op de stoel zit.
 
