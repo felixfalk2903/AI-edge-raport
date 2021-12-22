@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d8268608-bbb3-4c41-948e-e290155a02d1/deploy-status)](https://app.netlify.com/sites/ai-edge-raport/deploys)
 
-[Our netlify site](ai-edge-raport.netlify.app)
+[Our netlify site](https://ai-edge-raport.netlify.app/)
 
 ## Running a Development Server
 
