@@ -20,3 +20,9 @@ Beschrijf de stappen die jullie in de analyse van de probleemstelling hebben ged
 * Hoe wil je de software deployen? .exe? docker? pip python package?
 
  -->
+
+Seat detection wordt reeds gebruikt in verschijdenheid aan situaties zoals bijvoorbeeld de Kinepolis en sommige bussen.
+
+De manier waarop de detectie gedaan wordt kan verschillen, de meeste gaan voor een simpel druk systeem waarbij de persoon op een soort drukplaat zit waarbij druk de indicatie geeft of er een persoon op de stoel zit.
+
+Wij gaan voor een meer AI manier, dit is dan ook AI-Edge. We lezen de beweging van een persoon uit, mensen bewegen altijd een beetje op hun stoel (sommigen meer dan normaal). Deze beweging kunnen we uitlezing met een sensor die aan de stoel hangt.
