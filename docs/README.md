@@ -25,6 +25,10 @@ title: Home
 > 
 <!-- Het abstract is een samenvatting van de hele tekst (probleemstelling, doelstelling, uitwerking, conclusie) in 150 tot maximum 200 woorden.-->
 
+Welkom in ons rapport van de AI-Edge opdracht voor Seat-Detection.
+
+Hier proberen we via sensoren de beztting van een lokaal elektronisch te achterhalen. Door een sensor aan een poot van een stoel te hangen zouden we via de sensor data kunnen zien of iemand op die stoel zit.
+
 ## Over ons
 
 Felix Falk - 3de jaar ICT/AI
