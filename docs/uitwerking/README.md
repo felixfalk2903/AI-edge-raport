@@ -44,4 +44,14 @@ We creeëren een model met de Impulse Design:
 
 De Window size en Window increase werden automatisch ingesteld door de EON Tuner.
 
-Na veel testen concludeerden we dat een Spectral Analysis het beste resultaat gaf. Daarna sturen we deze features door een Keras Neuraal Netwerk, dit Neuraal Network klassificeerd op de 2 klasses: "Empty-seat & "Seat-filled", dit zijn dan ook de 2 mogelijke outputs.
+Na veel testen concludeerden we dat een Spectral Analysis het beste resultaat gaf.
+
+Daarna sturen we deze features door een Keras Neuraal Netwerk, dit Neuraal Network klassificeerd op de 2 klasses: "Empty-seat & "Seat-filled", dit zijn dan ook de 2 mogelijke outputs.
+
+![EON](./assets/EON.png)
+
+De EON Tuner zorgt ervoor dat we het meest optimaal neuraal netwerk verkrijgen.
+
+![EON testing](./assets/EONtesting.png)
+
+De EON Tuner test verschillende neurale netwerken met verschillende layer configuraties en zoekt de beste configuratie.
