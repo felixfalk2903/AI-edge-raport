@@ -4,16 +4,10 @@ title: Doelstelling
 
 # Doelstelling
 
-<!-- TODO: 
-
-Beschrijf de doelstellingen van het project.  
-
-* Wat is de hoofddoelstelling? 
-* Wat zijn de subdoelstellingen?
-
--->
+We willen de bezetting in de lokalen bepalen door de beweging van de stoelen in de lokalen uit te lezen.
 
 ## Hoofddoelstelling
+
 
 
 ## Subdoelstellingen
