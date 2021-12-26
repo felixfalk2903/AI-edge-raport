@@ -4,11 +4,6 @@ title: Doelstelling
 
 # Doelstelling
 
-We willen de bezetting in de lokalen bepalen door de beweging van de stoelen in de lokalen uit te lezen.
+![seats](./assets/seats.png)
 
-## Hoofddoelstelling
-
-
-
-## Subdoelstellingen
-
+We willen de bezetting in de lokalen bepalen door de beweging van de stoelen in de lokalen uit te lezen met gebruik van een Neuraal Netwerk die loopt op een Edge Device.
