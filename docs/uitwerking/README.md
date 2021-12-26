@@ -63,3 +63,15 @@ De EON Tuner zorgt ervoor dat we het meest optimaal neuraal netwerk verkrijgen.
 ![EON testing](./assets/EONtesting.png)
 
 De EON Tuner test verschillende neurale netwerken met verschillende layer configuraties en zoekt de beste configuratie.
+
+De EON Tuner geeft een aanbevolen configuratie voor het Neuraal Netwerk:
+
+![EONmodel](./assets/EONmodel.png)
+
+## Model testing
+
+Na dit model te laten trainen met de data, testen we het model:
+
+![ModelTest](./assets/ModelTest.png)
+
+Tijdens het testen merkten we dat het model wel vrij accuraat de bezetting van stoel kon detecteren. Er kwamen wat inaccurate resultaten wanneer we ons best deden om zeer stil te zitten dat het model wat moeite had. We testen dan ook maar kleine momenten, mensen kunnen korte momenten stil zitten, maar op een langer termijn zal de persoon eens bewegen en dan zal het model wel de persoon detecteren.
