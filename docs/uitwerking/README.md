@@ -48,11 +48,23 @@ We creeëren een model met de Impulse Design:
 
 ![model](./assets/model.png)
 
-De Window size en Window increase werden automatisch ingesteld door de EON Tuner.
+De Window size hebben we op 2 seconden en de window increase op 80ms we hebben geporbeerd met andere waarden maar dit gav niet veel verschil.
 
-Na veel testen concludeerden we dat een Spectral Analysis het beste resultaat gaf.
+Na veel testen concludeerden we dat raw data een goed resultaat gav.
 
 Daarna sturen we deze features door een Keras Neuraal Netwerk, dit Neuraal Network klassificeerd op de 2 klasses: "Empty-seat & "Seat-filled", dit zijn dan ook de 2 mogelijke outputs.
+
+## trainen
+
+![EON](./assets/training.png)
+
+we doen 20 epochs na testen gaf dit een naukeurig resultaat zonder dat we te veel last kunnen hebben van overfitting. Learningrate hebben we op de standaard waarden laten staan.
+
+dit is het resultaat van het model:
+
+![EON](./assets/resulttrain.png)
+
+we zien dat als de stoel leeg is hij het zo goed als altijd juist heeft, maar als hij gevuld is soms denkt dat hij leeg is. Normaal zal dit geen probleem zijn omdat we de imput gebruiken van meerdere stoelen.
 
 ## EON Tuner
 
@@ -79,8 +91,6 @@ Tijdens het testen merkten we dat het model wel vrij accuraat de bezetting van s
 ## Model deployen
 
 ## Resultaat
-
-## Data verwerken
 
 Om nu de effectieve bezettingsgraad van een lokaal te achterhalen moet de data van alle sensortiles op een centraal punt verzameld worden. Dit zal gebeuren door de sensortile met een Raspberry Pi te verbinden. Op deze Pi draait een python programma die de de predicties van de sensortile uitleest over de seriële verbinding (hiervoor wordt de [pyserial](https://github.com/pyserial/pyserial) module gebruikt). Vervolgens zal de Pi deze waarden in een payload gieten en over MQTT versturen naar een broker.
 
