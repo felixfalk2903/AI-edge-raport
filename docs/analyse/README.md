@@ -30,6 +30,8 @@ We maken gebruik van de hardware uit de [workshop](https://ai-edge-workshop.netl
 
 - Programming Ribbon kabel
 
+- Raspberry Pi
+
 ![setup](./assets/setup.png)
 
 ### Software
@@ -44,4 +46,4 @@ We maken gebruik van heel wat software, deze worden ook gerbruikt in de [worksho
 
 - [Edge Impulse](https://www.edgeimpulse.com/): om data te samplen en daarmee een Neuraal Netwerk te maken
 
-- Python: om het verworven Netwerk op een bordje te doen draaien
+- Python: om de predicties via seriële communicatie uit te lezen en te verzenden over MQTT
