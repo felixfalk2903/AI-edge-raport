@@ -88,7 +88,13 @@ Na dit model te laten trainen met de data, testen we het model:
 
 Tijdens het testen merkten we dat het model wel vrij accuraat de bezetting van stoel kon detecteren. Er kwamen wat inaccurate resultaten wanneer we ons best deden om zeer stil te zitten dat het model wat moeite had. We testen dan ook maar kleine momenten, mensen kunnen korte momenten stil zitten, maar op een langer termijn zal de persoon eens bewegen en dan zal het model wel de persoon detecteren.
 
-## Model deployen
+## Model deployment
+
+Om het model op de sensortile te krijgen maken we er eerst een c++ library van in edge impulse. Die steken we dan in de [AB-writing-standalone-inference-mbed](https://github.com/vives-ai-edge/AB-writing-standalone-inference-mbed) programma om het model te testen.
+
+daarna compileren we het proggrama en flashen we het op de sensortile.
+dit is dan het resultaat die we krijgen in de console:
+![ModelTest](./assets/result.png)
 
 ## Resultaat
 
