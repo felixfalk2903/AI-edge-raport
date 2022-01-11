@@ -8,7 +8,7 @@ title: Analyse
 
 ![kineProof](./assets/kineProof.png)
 
-Seat detection wordt reeds gebruikt in verscheidenheid aan situaties zoals bijvoorbeeld de Kinepolis om te checken of iedereen op zijn juiste stoel zit of wel voor zijn stoel heeft betaald.
+Seat detection wordt reeds gebruikt in verscheidenheid aan situaties zoals bijvoorbeeld de Kinepolis om te checken of iedereen op zijn juiste stoel zit en of hij/zij wel voor zijn stoel heeft betaald.
 
 De manier waarop de detectie gedaan wordt kan verschillen, de meeste gaan voor een simpel druk systeem waarbij de persoon op een soort drukplaat zit waarbij druk de indicatie geeft of er een persoon op de stoel zit.
 
@@ -30,6 +30,8 @@ We maken gebruik van de hardware uit de [workshop](https://ai-edge-workshop.netl
 
 - Programming Ribbon kabel
 
+- Raspberry Pi
+
 ![setup](./assets/setup.png)
 
 ### Software
@@ -44,4 +46,4 @@ We maken gebruik van heel wat software, deze worden ook gerbruikt in de [worksho
 
 - [Edge Impulse](https://www.edgeimpulse.com/): om data te samplen en daarmee een Neuraal Netwerk te maken
 
-- Python: om het verworven Netwerk op een bordje te doen draaien
+- Python: om de predicties via seriële communicatie uit te lezen en te verzenden over MQTT
