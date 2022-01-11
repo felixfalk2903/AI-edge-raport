@@ -86,4 +86,6 @@ Om nu de effectieve bezettingsgraad van een lokaal te achterhalen moet de data v
 
 Omdat we geen tijd genoeg hadden om in het lokaal een MQTT broker op te zetten hebben we gekozen om de publice broker [mqtthq](https://mqtthq.com/) te gebruiken. Daar kunnen al de waarden op de "SensorTile" topic uitgelezen worden.
 
-De python code die dit allemaal realiseerd kan in de velgende github repo worden teruggevonden [mqtt-repo](https://github.com/ThomasLuca/Seat-detection-mqtt).
+![output on broker](./assets/broker-output.png)
+
+De python code die dit allemaal realiseerd kan in volgende github repo worden teruggevonden [mqtt-repo](https://github.com/ThomasLuca/Seat-detection-mqtt).
