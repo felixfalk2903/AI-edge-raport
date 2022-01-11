@@ -4,6 +4,12 @@ title: Uitbreiding
 
 # Mogelijke uitbreidingen
 
+## Project zelf
+
+De plaatsbezetting van de lokalen kan op toledo geplaatst worden. Als een docent een lokaal nodig heeft kan hij opzoeken of deze vrij is. Dit kan ook gemaakt worden voor studenten om de bezetting te zien in het restaurant en de studielokalen.
+
+We hebben ook nog een tijd gewerkt aan bluetooth op de sensortile maar dit was moeilijk te implementeren. Met meer tijd zou dit waarschijnlijk gelukt zijn.
+
 
 ## Openbaar vervoer
 
