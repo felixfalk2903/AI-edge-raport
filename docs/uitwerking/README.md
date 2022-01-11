@@ -90,10 +90,10 @@ Tijdens het testen merkten we dat het model wel vrij accuraat de bezetting van s
 
 ## Model deployment
 
-Om het model op de sensortile te krijgen maken we er eerst een c++ library van in edge impulse. Die steken we dan in de [AB-writing-standalone-inference-mbed](https://github.com/vives-ai-edge/AB-writing-standalone-inference-mbed) programma om het model te testen.
+Om het model op de sensortile te krijgen maken we er eerst een C++ library van in edge impulse. Die steken we dan in de [AB-writing-standalone-inference-mbed](https://github.com/vives-ai-edge/AB-writing-standalone-inference-mbed) programma om het model te testen.
 
-daarna compileren we het proggrama en flashen we het op de sensortile.
-dit is dan het resultaat die we krijgen in de console:
+Daarna compileren we het programma en flashen we het op de sensortile.
+Dit is dan het resultaat die we krijgen in de console:
 ![ModelTest](./assets/result.png)
 
 ## Resultaat
