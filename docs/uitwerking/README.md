@@ -48,9 +48,9 @@ We creeëren een model met de Impulse Design:
 
 ![model](./assets/model.png)
 
-De Window size hebben we op 2 seconden en de window increase op 80ms we hebben geporbeerd met andere waarden maar dit gav niet veel verschil.
+De Window size hebben we op 2 seconden en de window increase op 80ms we hebben geporbeerd met andere waarden maar dit gaf niet veel verschil.
 
-Na veel testen concludeerden we dat raw data een goed resultaat gav.
+Na veel testen concludeerden we dat raw data een goed resultaat gaf.
 
 Daarna sturen we deze features door een Keras Neuraal Netwerk, dit Neuraal Network klassificeerd op de 2 klasses: "Empty-seat & "Seat-filled", dit zijn dan ook de 2 mogelijke outputs.
 
@@ -58,13 +58,13 @@ Daarna sturen we deze features door een Keras Neuraal Netwerk, dit Neuraal Netwo
 
 ![EON](./assets/training.png)
 
-we doen 20 epochs na testen gaf dit een naukeurig resultaat zonder dat we te veel last kunnen hebben van overfitting. Learningrate hebben we op de standaard waarden laten staan.
+We doen 20 epochs, na testen gaf dit een naukeurig resultaat zonder dat we te veel last kunnen hebben van overfitting. Learningrate hebben we op de standaard waarden laten staan.
 
-dit is het resultaat van het model:
+Dit is het resultaat van het model:
 
 ![EON](./assets/resulttrain.png)
 
-we zien dat als de stoel leeg is hij het zo goed als altijd juist heeft, maar als hij gevuld is soms denkt dat hij leeg is. Normaal zal dit geen probleem zijn omdat we de imput gebruiken van meerdere stoelen.
+We zien dat als de stoel leeg is hij het zo goed als altijd juist heeft, maar als hij gevuld is soms denkt dat hij leeg is. Normaal zal dit geen probleem zijn omdat we de imput gebruiken van meerdere stoelen.
 
 ## EON Tuner
 
