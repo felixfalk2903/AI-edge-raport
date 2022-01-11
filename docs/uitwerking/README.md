@@ -54,7 +54,7 @@ Na veel testen concludeerden we dat raw data een goed resultaat gaf.
 
 Daarna sturen we deze features door een Keras Neuraal Netwerk, dit Neuraal Network klassificeerd op de 2 klasses: "Empty-seat & "Seat-filled", dit zijn dan ook de 2 mogelijke outputs.
 
-## trainen
+## Trainen
 
 ![EON](./assets/training.png)
 
