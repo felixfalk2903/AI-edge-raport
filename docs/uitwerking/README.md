@@ -96,7 +96,7 @@ Daarna compileren we het programma en flashen we het op de sensortile.
 Dit is dan het resultaat die we krijgen in de console:
 ![ModelTest](./assets/result.png)
 
-## Resultaat
+## MQTT
 
 Om nu de effectieve bezettingsgraad van een lokaal te achterhalen moet de data van alle sensortiles op een centraal punt verzameld worden. Dit zal gebeuren door de sensortile met een Raspberry Pi te verbinden. Op deze Pi draait een python programma die de de predicties van de sensortile uitleest over de seriële verbinding (hiervoor wordt de [pyserial](https://github.com/pyserial/pyserial) module gebruikt). Vervolgens zal de Pi deze waarden in een payload gieten en over MQTT versturen naar een broker.
 
