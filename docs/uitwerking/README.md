@@ -105,3 +105,17 @@ Omdat we geen tijd genoeg hadden om in het lokaal een MQTT broker op te zetten h
 ![output on broker](./assets/broker-output.png)
 
 De python code die dit allemaal realiseerd kan in volgende github repo worden teruggevonden [mqtt-repo](https://github.com/ThomasLuca/Seat-detection-mqtt).
+
+## Frontend
+
+Om de data die naar de mqtt broker werd verstuurd deftig weer te geven hebben wij besloten om een web-pagina te bouwen. Hierop krijg je op een deftige manier te zien welke stoelen er precies bezet zijn en welke er vrij zijn. De frontend is dus subscribed op de juiste topic van de mqtt-broker. De repo van de frontend kan [hier](https://github.com/felixfalk2903/classroom) worden terug gevonden. Het systeem ziet er als volgt uit:
+
+![Frontend screenshot](./assets/Classroom_Occupation.png)
+
+Hier zie je dat de 5de stoel bezet is, en om aan te tonen dat deze wel degelijk van een bericht komt van de mqtt broker. Hieronder de console:
+
+
+![console frontned](./assets/mqtt_frontend_output.png)
+
+Hierop ziet men dat de broker soms wel problemen heeft te connecteren maar naar de 2de of 3de retry lukt dit meestal wel.
+
